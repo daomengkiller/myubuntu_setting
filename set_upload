@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo apt-get install -y xrdp vnc4server xubuntu-desktop
+echo "xfce4-session" >~/.xsession
+sudo service xrdp restart
